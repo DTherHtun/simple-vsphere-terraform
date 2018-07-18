@@ -1,6 +1,6 @@
 # simple vsphere terraform with multi host
 
-* Edit terraform.tfvar
+* Edit terraform.tfvars
 * terraform init
 * terraform plan 
 * terraform apply
