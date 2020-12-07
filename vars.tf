@@ -13,7 +13,7 @@ variable "resource_pool_default" {}
 variable "template_centos_general" {}
 variable "number_of_host" {}
 
-variable "ip_dns" { type = "list" }
+variable "ip_dns" { type = list(string) }
 variable "ip_addr" {}
 variable "ip_netmask" {}
 variable "ip_gw" {}
